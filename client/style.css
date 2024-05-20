@@ -1,0 +1,36 @@
+.calendar_grid{
+    display: grid;
+    gap: .2rem;
+    grid-template-columns: repeat(7,1fr);
+}
+.calendar_grid p{
+    background-color: rgba(0, 0, 0, 0.699);
+    color: #fff;
+    letter-spacing: .1rem;
+}
+
+.calendar_dates{
+    display: grid;
+    gap: .2rem;
+    grid-template-columns: repeat(7,1fr);
+}
+
+
+.booked{
+    background-color: rgba(214, 69, 25, 0.527);
+}
+.not-booked{
+    background-color: rgba(47, 226, 128, 0.527);
+}
+#today{
+    border: .4rem solid rgba(99, 44, 155, 0.651);
+}
+
+
+.calendar_grid p,
+.calendar_dates p{
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
